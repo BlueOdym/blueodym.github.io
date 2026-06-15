@@ -1,7 +1,7 @@
 //time
     const options = {
         timeZone: "Europe/Paris",
-        hourCycle: "h24",
+        hourCycle: "h23",
         hour: "numeric",
         minute: "numeric",
     };
