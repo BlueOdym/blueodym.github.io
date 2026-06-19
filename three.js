@@ -61,33 +61,6 @@ function applyMaterialToMesh(object, material) {
     })
 }
 
-// Load FBX model
-/* const fbxObject = await fbxloader.loadAsync('./ressources/assets/Licorne_Animal_Jam.fbx');{
-    applyMaterialToMesh(fbxObject, fbxMaterial)
-    fbxObject.scale.set(0.01, 0.01, 0.01)
-    fbxObject.position.set(0, 0, 0)
-    scene.add(fbxObject);
-}
-
-const objObject = await objloader.loadAsync( './ressources/assets/Licorne_Animal_Jam.obj' );{
-    objObject.scale.set(1, 1, 1); // Adjust the scale of the model if necessary
-    objObject.position.set(2, 0, 0); // Set the position of the model if necessary
-    scene.add( objObject );
-}
-
-const frisian_horse = await fbxloader.loadAsync( './ressources/assets/Frisian_Low_V4.fbx' );
-    applyMaterialToMesh(frisian_horse, fbxMaterial)
-    frisian_horse.scale.set(1, 1, 1); // Adjust the scale of the model if necessary
-    frisian_horse.position.set(4, 1, 0); // Set the position of the model if necessary
-    scene.add( frisian_horse );
-
-const frisian_horse_subd = await fbxloader.loadAsync( './ressources/assets/Frisian_Low_V4_subdivided.fbx' ); {
-    applyMaterialToMesh(frisian_horse_subd, fbxMaterial)
-    frisian_horse_subd.scale.set(1, 1, 1); // Adjust the scale of the model if necessary
-    frisian_horse_subd.position.set(-2, -1, 0); // Set the position of the model if necessary
-    scene.add( frisian_horse_subd );
-} */
-
 const cube = await fbxloader.loadAsync( './ressources/assets/test/Cube.fbx' ); {
     applyMaterialToMesh(cube, testmat)
 }
@@ -157,15 +130,6 @@ const closeness_range = 1.5;
 const closeness_deadzone = 0.2;
 const range = 3;
 const worldPos = new THREE.Vector3();
-
-function mapRange(value, fromMin, fromMax, toMin, toMax) {
-    return (
-        (value - fromMin) *
-        (toMax - toMin) /
-        (fromMax - fromMin) +
-        toMin
-    );
-}
 
 function animate() {
     requestAnimationFrame(animate);
