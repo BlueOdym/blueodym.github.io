@@ -18,12 +18,13 @@
   <link rel="modulepreload" crossorigin href="/assets/scripts-DKlzZ_I2.js">
   <link rel="stylesheet" crossorigin href="/assets/scripts--VxrV7XG.css">
 </head>
-
+
+
 
 <body>
   <header id="header1">
     <nav>
-      <a href="./home"><img class="logo" src="/assets/Website_Icon-B54bB78k.ico"></a>
+      <a href="./home"><img class="logo" src="./ressources/images/icons/Website_Icon.ico"></a>
       <ul>
         <a href="./home">Home</a>
         <a href="./home#Experience">Experience</a>
@@ -42,20 +43,21 @@
     <section id="Home" style="z-index: -500;">
       <div class="background-home">
         <box class="homebackground"></box>
-        <canvas class="webgl" style="position: absolute; width: 100%; height: 100%; z-index: -50; opacity: 0.5;"></canvas>
+        <canvas class="webgl" style="position: absolute; width: 100%; height: 100%; z-index: -50; opacity: 0.5;"></canvas>
+        <script type="module" src="./home_background.js"></script>
         <p class="verticaltxt">3D Generalist &nbsp; ○ &nbsp; Environment Artist &nbsp; ○ &nbsp; Character Modeler</p>
         <div class="scrolledtitles" id="scrolledtitles"><h2><span>Vivien</span><span style="font-style: normal; font-weight: bold; color: transparent; -webkit-text-stroke: 1px rgba(255, 255, 255, 1);"> Deroche</span></h2><p class="fadeSlideLeft">3D Artist & Freelancer</p></div>
-        <img class ="homeimg" src="/assets/abstract_cube_vray_square-CpD0fsC4.png" id="scrolledtitles">
+        <img class ="homeimg" src="./ressources/images/background/abstract_cube_vray_square.png" id="scrolledtitles">
         <ul class="softwareslist">
-          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="/assets/UE5-DKCMCflA.png"></li>
-          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="/assets/3ds_Max-aEH0fGIM.png"></li>
-          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="/assets/Substance_Painter-1spbLXuS.png"></li>
-          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="/assets/ZBrush-CmKwywlk.png"></li>
-          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="/assets/Blender-Da3tUW0n.png"></li>
-          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="/assets/Photoshop-Dmv4QUt7.png"></li>
-          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="data:image/png;base64,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"></li>
-          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="/assets/Maya-w3YAF3_c.png"></li>
-          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="/assets/Nuke-CeqmKvFD.png"></li>
+          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="ressources/images/icons/UE5.png"></li>
+          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="ressources/images/icons/3ds_Max.png"></li>
+          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="ressources/images/icons/Substance_Painter.png"></li>
+          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="ressources/images/icons/ZBrush.png"></li>
+          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="ressources/images/icons/Blender.png"></li>
+          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="ressources/images/icons/Photoshop.png"></li>
+          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="ressources/images/icons/Substance_Designer.png"></li>
+          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="ressources/images/icons/Maya.png"></li>
+          <li class="softwares" style="list-style-type: none; padding: 10px"><img class="icons" src ="ressources/images/icons/Nuke.png"></li>
         </ul>
         <div style="position: absolute; bottom: 0;display: flex; justify-content: center; width: 100vw;"><p style="text-align: center; margin: 0; padding: 0; color: rgba(255, 255, 255, 0.2)" id="scrolledtitles">&lang; scroll down &rang;</p></div>
       </div>
@@ -84,7 +86,7 @@
 
     <section id="Experience">    
       <div class="introduction">
-        <img src="/assets/profile_picture-Brjn3Y3X.jpg">
+        <img src="./ressources/images/background/profile_picture.jpg">
         <div>
           <h2 style ="text-align: center"><span>Diligent <span style="font-style: normal; font-weight: lighter;">and </span>long work <span style="font-style: normal; font-weight: lighter;">for an ever </span>faster <span style="font-style: normal; font-weight: lighter;">medium</span></span></h2>
           <p style ="text-align: center; font-weight: normal;">Passionate about creating immersive environments and compelling characters while still valuing being a well-rounded 3D artist, to better understand and contribute to every stage of a project.</p>
@@ -120,18 +122,18 @@
     <section id="Work">
       <h1 style="font-size: 48px; text-align: center; margin: 0; margin-top: 20px; margin-bottom: 20px;">Work</h1>
       <div class="workgallery">
-        <div class="work"><img onclick="imagedescription('work1')" src="/assets/Darth_Maul-CPZi1H8y.jpg"><h1>Darth Maul</h1><p>Sculpt &nbsp; • &nbsp; Texturing &nbsp; • &nbsp; Shading</p></div>
-        <div class="work"><img onclick="imagedescription('work2')" src="/assets/Turtle_Front-DBWvdqJr.jpg"><h1>TMNT Furinkazan</h1><p>Sculpt &nbsp; • &nbsp; Texturing &nbsp; • &nbsp; Lighting</p></div>
-        <div class="work" style="width: 90vw;"><img style="width: 90vw;" onclick="imagedescription('work3')" src="/assets/Bryan_Cranston-Ct0WbcSU.jpg"><h1>Bryan Cranston</h1><p>Sculpt &nbsp; • &nbsp; Texturing &nbsp; • &nbsp; Shading</p></div>
-        <div class="work"><img onclick="imagedescription('work4')" src="/assets/Enceinte_Front_LookDev-CxyO-5v2.jpg"><h1>Speakers</h1><p>Modeling &nbsp; • &nbsp; Hard Surface &nbsp; • &nbsp; Texturing</p></div>
-        <div class="work"><img onclick="imagedescription('work5')" src="/assets/Environment_2D_1-DFaMTQ1Y.jpg"><h1>Far West Concept Art</h1><p>2D &nbsp; • &nbsp; Concept Art &nbsp; • &nbsp; Line Art</p></div>
-        <div class="work" style="width: 90vw;"><img style="width: 90vw;" onclick="imagedescription('work6')" src="/assets/Environment-Ji9nTX17.jpg"><h1>Far West Environment</h1><p>Modeling &nbsp; • &nbsp; Texturing &nbsp; • &nbsp; Compositing</p></div>
+        <div class="work"><img onclick="imagedescription('work1')" src="./ressources/images/work/Darth_Maul.jpg"><h1>Darth Maul</h1><p>Sculpt &nbsp; • &nbsp; Texturing &nbsp; • &nbsp; Shading</p></div>
+        <div class="work"><img onclick="imagedescription('work2')" src="./ressources/images/work/Turtle_Front.jpg"><h1>TMNT Furinkazan</h1><p>Sculpt &nbsp; • &nbsp; Texturing &nbsp; • &nbsp; Lighting</p></div>
+        <div class="work" style="width: 90vw;"><img style="width: 90vw;" onclick="imagedescription('work3')" src="./ressources/images/work/Bryan_Cranston.jpg"><h1>Bryan Cranston</h1><p>Sculpt &nbsp; • &nbsp; Texturing &nbsp; • &nbsp; Shading</p></div>
+        <div class="work"><img onclick="imagedescription('work4')" src="./ressources/images/work/Enceinte_Front_LookDev.jpg"><h1>Speakers</h1><p>Modeling &nbsp; • &nbsp; Hard Surface &nbsp; • &nbsp; Texturing</p></div>
+        <div class="work"><img onclick="imagedescription('work5')" src="./ressources/images/work/Environment_2D_1.jpg"><h1>Far West Concept Art</h1><p>2D &nbsp; • &nbsp; Concept Art &nbsp; • &nbsp; Line Art</p></div>
+        <div class="work" style="width: 90vw;"><img style="width: 90vw;" onclick="imagedescription('work6')" src="./ressources/images/work/Environment.jpg"><h1>Far West Environment</h1><p>Modeling &nbsp; • &nbsp; Texturing &nbsp; • &nbsp; Compositing</p></div>
       </div>
 
       <div class="overlay" id="work_popupOverlay">
           <div class="work_popup" style="display: none;" id="work1">
               <button class="work_close-btn" id="work_closePopup" style="z-index: 10;">&times;</button>
-              <img src="/assets/Darth_Maul-CPZi1H8y.jpg" original-src="./ressources/images/work/Darth_Maul.jpg" id="workimg1">
+              <img src="./ressources/images/work/Darth_Maul.jpg" original-src="./ressources/images/work/Darth_Maul.jpg" id="workimg1">
               <button onclick="changeimageL('workimg1', worksrc1)" class="leftarr">&lang;</button><button onclick="changeimageR('workimg1', worksrc1)" class="rightarr">&rang;</button> 
               <div style="display: flex; flex-wrap: wrap; flex-direction: column;">
                 <h1>Darth Maul</h1>
@@ -143,7 +145,7 @@
           </div>
           <div class="work_popup" style="display: none;" id="work2">
               <button class="work_close-btn" id="work_closePopup" style="z-index: 10;">&times;</button>
-              <img src="/assets/Turtle_Front-DBWvdqJr.jpg" original-src="./ressources/images/work/Turtle_Front.jpg" id="workimg2">
+              <img src="./ressources/images/work/Turtle_Front.jpg" original-src="./ressources/images/work/Turtle_Front.jpg" id="workimg2">
               <button onclick="changeimageL('workimg2', worksrc2)" class="leftarr">&lang;</button><button onclick="changeimageR('workimg2', worksrc2)" class="rightarr">&rang;</button>
               <div style="display: flex; flex-wrap: wrap; flex-direction: column;">
                 <h1>TMNT Furinkazan</h1>
@@ -155,7 +157,7 @@
           </div>
           <div class="work_popup" style="display: none;" id="work3">
               <button class="work_close-btn" id="work_closePopup" style="z-index: 10;">&times;</button>
-              <img src="/assets/Bryan_Cranston-Ct0WbcSU.jpg" original-src="./ressources/images/work/Bryan_Cranston.jpg" id="workimg3">
+              <img src="./ressources/images/work/Bryan_Cranston.jpg" original-src="./ressources/images/work/Bryan_Cranston.jpg" id="workimg3">
               <button onclick="changeimageL('workimg3', worksrc3)" class="leftarr">&lang;</button><button onclick="changeimageR('workimg3', worksrc3)" class="rightarr">&rang;</button>
               <div style="display: flex; flex-wrap: wrap; flex-direction: column;">
                 <h1>Bryan Cranston</h1>
@@ -167,7 +169,7 @@
           </div>
           <div class="work_popup" style="display: none;" id="work4">
               <button class="work_close-btn" id="work_closePopup" style="z-index: 10;">&times;</button>
-              <img src="/assets/Enceinte_Front_LookDev-CxyO-5v2.jpg" original-src="./ressources/images/work/Enceinte_Front_LookDev.jpg" id="workimg4">
+              <img src="./ressources/images/work/Enceinte_Front_LookDev.jpg" original-src="./ressources/images/work/Enceinte_Front_LookDev.jpg" id="workimg4">
               <button onclick="changeimageL('workimg4', worksrc4)" class="leftarr">&lang;</button><button onclick="changeimageR('workimg4', worksrc4)" class="rightarr">&rang;</button>
               <div style="display: flex; flex-wrap: wrap; flex-direction: column;">
                 <h1>Speakers</h1>
@@ -179,7 +181,7 @@
           </div>
           <div class="work_popup" style="display: none;" id="work5">
               <button class="work_close-btn" id="work_closePopup" style="z-index: 10;">&times;</button>
-              <img src="/assets/Environment_2D_1-DFaMTQ1Y.jpg" original-src="./ressources/images/work/Environment_2D_1.jpg" id="workimg5">
+              <img src="./ressources/images/work/Environment_2D_1.jpg" original-src="./ressources/images/work/Environment_2D_1.jpg" id="workimg5">
               <button onclick="changeimageL('workimg5', worksrc5)" class="leftarr">&lang;</button><button onclick="changeimageR('workimg5', worksrc5)" class="rightarr">&rang;</button>
               <div style="display: flex; flex-wrap: wrap; flex-direction: column;">
                 <h1>Far West Concept Art</h1>
@@ -191,7 +193,7 @@
           </div>
           <div class="work_popup" style="display: none; flex-direction: column;" id="work6">
               <button class="work_close-btn" id="work_closePopup" style="z-index: 10;">&times;</button>
-              <img src="/assets/Environment-Ji9nTX17.jpg" original-src="./ressources/images/work/Environment.jpg" id="workimg6" style="min-width: 100%; width: 100%; height: 50%;">
+              <img src="./ressources/images/work/Environment.jpg" original-src="./ressources/images/work/Environment.jpg" id="workimg6" style="min-width: 100%; width: 100%; height: 50%;">
               <button onclick="changeimageL('workimg6', worksrc6)" class="leftarr" style="height: 50%">&lang;</button><button onclick="changeimageR('workimg6', worksrc6)" class="rightarr" style="height: 50%; right: 0">&rang;</button>
               <div style="display: flex; flex-wrap: wrap; flex-direction: column;">
                 <h1>Far West Environment</h1>
@@ -210,44 +212,44 @@
     <section id="Gallery">
       <h1 style="font-size: 48px; text-align: center; margin: 0; margin-top: 20px; margin-bottom: 20px;">Gallery</h1>
       <div class="gallery">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Yamaha5.jpg')" src="/assets/Yamaha5-49HevXGZ.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/ATH-m40x5.jpg')" src="/assets/ATH-m40x5-CuN7K-0T.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Soho_Wireless_2-m40x5.jpg')" src="/assets/Soho_Wireless_2-DmH1Ge2L.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Soho_Wireless_4.jpg')" src="/assets/Soho_Wireless_4-Co8ItU-J.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/MEZE_99_Classics_1.jpg')" src="/assets/MEZE_99_Classics_1-DavKXsKL.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/LUKSUS.jpg')" src="/assets/LUKSUS-DWLHM0g6.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Enceinte_5K.jpg')" src="/assets/Enceinte_5K-DVJMjHj2.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Objectif_LookDev.jpg')" src="/assets/Objectif_LookDev-dfIDjxr5.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Quick_3.jpg')" src="/assets/Quick_3-Do3rkjTG.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Whisky_CloseupUp.jpg')" src="/assets/Whisky_CloseupUp-gszgz9Wa.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Keyboard_2_LookDev.jpg')" src="/assets/Keyboard_2_LookDev-BPYQtgFT.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Exemple_OMD.jpg')" src="/assets/Exemple_OMD-BiBpz7wD.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/darthmaul.jpg')" src="/assets/darthmaul-B5AF00xp.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/darth_maul_complete.jpg')" src="/assets/darth_maul_complete-HlF0Z1hw.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Insta.jpg')" src="/assets/Insta-BdYh0Qdp.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/TurnAbout_Orc.gif')" src="/assets/TurnAbout_Orc-Y3o2qFFI.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Superman_Head_1.jpg')" src="/assets/Superman_Head_1-D-Y_2utM.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Cherrlinna_4.jpg')" src="/assets/Cherrlinna_4-Bv-cRf00.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/D20_Saphir.jpg')" src="/assets/D20_Saphir-CUCuGNTI.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/AllIn.jpg')" src="/assets/AllIn-BtG2BGef.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Circle.jpg')" src="/assets/Circle-Br0rCbXE.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Window_Wallpaper.gif')" src="/assets/Window_Wallpaper-WfR12eeu.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Windows4.jpg')" src="/assets/Windows4-BJY5Q8JJ.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Abstract_Cube.gif')" src="/assets/Abstract_Cube-Cn9LL48t.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Comparaison.jpg')" src="/assets/Comparaison-DKBKpRnL.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/apocalyps_truck.jpg')" src="/assets/apocalyps_truck-CdL5FY_I.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Background.jpg')" src="/assets/Background-C-Z7qdDb.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Tenebris.jpg')" src="/assets/Tenebris-C0KuOGu2.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Kor.jpg')" src="/assets/Kor-DCk9z1Or.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Lego_Head.jpg')" src="/assets/Lego_Head-DoTJJHEC.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Lightroom2.jpg')" src="/assets/Lightroom2-Bk-23Agz.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Shoe+herb_side_view.jpg')" src="/assets/Shoe_herb_side_view-C3KfcY8Y.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/modern house.jpg')" src="/assets/modern%20house-BxktrhT4.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/A fucking citie.jpg')" src="/assets/A%20fucking%20citie-BGuLs1Hk.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Building.jpg')" src="/assets/Building-DI9SlwhL.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Mamma Mia.jpg')" src="/assets/Mamma%20Mia-BG14d8mN.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/Coffee_Shop_Eevee.jpg')" src="/assets/Coffee_Shop_Eevee-yb-pNVMc.jpg">
-        <img onclick="imagefullscreen('./ressources/images/gallery/First Handpaint_Eevee.jpg')" src="/assets/First%20Handpaint_Eevee-CJMOjkWr.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Yamaha5.jpg')" src="./ressources/images/gallery/Yamaha5.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/ATH-m40x5.jpg')" src="./ressources/images/gallery/ATH-m40x5.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Soho_Wireless_2-m40x5.jpg')" src="./ressources/images/gallery/Soho_Wireless_2.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Soho_Wireless_4.jpg')" src="./ressources/images/gallery/Soho_Wireless_4.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/MEZE_99_Classics_1.jpg')" src="./ressources/images/gallery/MEZE_99_Classics_1.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/LUKSUS.jpg')" src="./ressources/images/gallery/LUKSUS.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Enceinte_5K.jpg')" src="./ressources/images/gallery/Enceinte_5K.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Objectif_LookDev.jpg')" src="./ressources/images/gallery/Objectif_LookDev.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Quick_3.jpg')" src="./ressources/images/gallery/Quick_3.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Whisky_CloseupUp.jpg')" src="./ressources/images/gallery/Whisky_CloseupUp.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Keyboard_2_LookDev.jpg')" src="./ressources/images/gallery/Keyboard_2_LookDev.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Exemple_OMD.jpg')" src="./ressources/images/gallery/Exemple_OMD.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/darthmaul.jpg')" src="./ressources/images/gallery/darthmaul.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/darth_maul_complete.jpg')" src="./ressources/images/gallery/darth_maul_complete.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Insta.jpg')" src="./ressources/images/gallery/Insta.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/TurnAbout_Orc.gif')" src="./ressources/images/gallery/TurnAbout_Orc.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Superman_Head_1.jpg')" src="./ressources/images/gallery/Superman_Head_1.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Cherrlinna_4.jpg')" src="./ressources/images/gallery/Cherrlinna_4.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/D20_Saphir.jpg')" src="./ressources/images/gallery/D20_Saphir.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/AllIn.jpg')" src="./ressources/images/gallery/AllIn.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Circle.jpg')" src="./ressources/images/gallery/Circle.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Window_Wallpaper.gif')" src="./ressources/images/gallery/Window_Wallpaper.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Windows4.jpg')" src="./ressources/images/gallery/Windows4.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Abstract_Cube.gif')" src="./ressources/images/gallery/Abstract_Cube.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Comparaison.jpg')" src="./ressources/images/gallery/Comparaison.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/apocalyps_truck.jpg')" src="./ressources/images/gallery/apocalyps_truck.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Background.jpg')" src="./ressources/images/gallery/Background.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Tenebris.jpg')" src="./ressources/images/gallery/Tenebris.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Kor.jpg')" src="./ressources/images/gallery/Kor.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Lego_Head.jpg')" src="./ressources/images/gallery/Lego_Head.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Lightroom2.jpg')" src="./ressources/images/gallery/Lightroom2.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Shoe+herb_side_view.jpg')" src="./ressources/images/gallery/Shoe+herb_side_view.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/modern house.jpg')" src="./ressources/images/gallery/modern house.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/A fucking citie.jpg')" src="./ressources/images/gallery/A fucking citie.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Building.jpg')" src="./ressources/images/gallery/Building.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Mamma Mia.jpg')" src="./ressources/images/gallery/Mamma Mia.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/Coffee_Shop_Eevee.jpg')" src="./ressources/images/gallery/Coffee_Shop_Eevee.jpg">
+        <img onclick="imagefullscreen('./ressources/images/gallery/First Handpaint_Eevee.jpg')" src="./ressources/images/gallery/First Handpaint_Eevee.jpg">
       </div>
 
       <div class="overlay" id="gallery_popupOverlay">
@@ -273,6 +275,7 @@
   </footer>
 
 </body>
-
+
+
 
 </html>
