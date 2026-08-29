@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vivien Deroche - Photography</title>
 
-    <link rel="icon" type="image/x-icon" href="/assets/Website_Icon-B54bB78k.ico">
+    <link rel="icon" type="image/x-icon" href="./ressources/images/icons/Website_Icon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,22 +15,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
-  <script type="module" crossorigin src="/assets/contact-C6rDKUSJ.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/scripts-DKlzZ_I2.js">
-  <link rel="stylesheet" crossorigin href="/assets/scripts--VxrV7XG.css">
 </head>
 
+<link rel="stylesheet" href="style.css">
+
 <body>
-    <header id="header2" style="backdrop-Filter: blur(24px); border: 1px solid rgba(61, 61, 61, 1); background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); background-Clip: padding-box">
+  <header id="header2" style="backdrop-Filter: blur(24px); border: 1px solid rgba(61, 61, 61, 1); background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); background-Clip: padding-box">
     <nav>
       <a href="./index"><img class="logo" src="./ressources/images/icons/Website_Icon.ico"></a>
-      <ul>
-        <a href="./index">Home</a>
-        <a href="./index#Experience">Experience</a>
-        <a href="./index#Work">Work</a>
-        <a href="./index#Gallery">Gallery</a>
-        <a href="./contact">Contact</a>
-      </ul>
+        <ul>
+          <a href="./home#Home">Home</a>
+          <a href="./home#Experience">Experience</a>
+          <a href="./home#Work">Work</a>
+          <a href="./home#Gallery">Gallery</a>
+          <a href="./contact">Contact</a>
+        </ul>
       <div style="display: flex;flex-wrap: wrap; justify-content: right;">
         <a class="nav-link" style="color: rgba(255, 255, 255, 0.5); font-size: 16px; margin-right: 5vw; margin-left: 2vw;" id="time">Paris, N/A</a>
         <a class="nav-link" href="./photography" style="text-align: right;">Photography</a>
@@ -38,7 +37,112 @@
     </nav>
   </header>
 
-   <div style="height: 80vh; display: flex; flex-direction: column; justify-content: center; align-items: center;"><h1>WORK IN PROGRESS</h1><p>in the meantime you can find me on</p><a class="email" style="text-decoration: none; color: white;" href="https://www.instagram.com/viviend_photography/" target="_blank"><span style="margin-left: 10px"><span style="font-weight: bold;">instagram</span> @viviend-photography</span><span class="copybutton"><svg class="copybutton"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></span></a></div>
+  <div class="block" style="position: absolute; height: calc(100vh + 415px); background-image: url(./ressources/images/photography/Annecy_Jour_1-041.jpg)"></div>
+  <div class="block" style="position: absolute; height: calc(100vh + 415px); background: linear-gradient(to top, rgb(24, 24, 24), rgba(0, 0, 0, 0)); backdrop-filter: blur(10px);"></div>
+  <div class="block" style="height: 100px; background-color: transparent;"></div>
+  <behold-widget feed-id="7dbXXplEDkFuPtuNgv7i" style="width: 75vw; margin-left: 12.5vw; margin-right: 12.5vw">
+    <script>
+      (() => {
+        if(window.__bhldScript)return;window.__bhldScript=true;
+        const d=document,s=d.createElement("script");s.type="module";
+        s.src="https://w.behold.so/widget.js";setTimeout(()=>{d.head.append(s);},0);
+      })();
+    </script>
+  </behold-widget>
+  <div style="height: 30vh; display: flex; flex-direction: column; justify-content: center; align-items: center;"><h1 style="text-shadow: 0 0 12px rgba(0, 0, 0, 1)">Find me on</h1><a class="email" style="text-decoration: none; color: white;" href="https://www.instagram.com/viviend_photography/" target="_blank"><span style="margin-left: 10px"><span style="font-weight: bold;">instagram</span> @viviend-photography</span><span class="copybutton"><svg class="copybutton"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></span></a></div>
+
+  <section id="Gallery">
+    <div class="seperator"></div>
+    <h1 style="font-size: 48px; text-align: center; margin: 0; margin-top: 20px; margin-bottom: 20px;">Gallery</h1>
+    <div class="seperator"></div>
+    <div class="gallery" id="gallery">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_1-041.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_1-041.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_1-042.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_1-042.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_2-04.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_2-04.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_2-13.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_2-13.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_2-15.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_2-15.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_1-031.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_1-031.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_1-034.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_1-034.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_1-054.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_1-054.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_1-057.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_1-057.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_1-068.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_1-068.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_1-071.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_1-071.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_1-082.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_1-082.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_1-061.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_1-061.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_1-084.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_1-084.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_1-083.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_1-083.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_2-36.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_2-36.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_2-41.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_2-41.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_2-40.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_2-40.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_2-26.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_2-26.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_1-094.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_1-094.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_1-104.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_1-104.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Annecy_Jour_1-106.jpg')" src="./ressources/images/photography/thumbnail/Annecy_Jour_1-106.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Champagne_Summer24-01.jpg')" src="./ressources/images/photography/thumbnail/Champagne_Summer24-01.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Champagne_Summer24-10.jpg')" src="./ressources/images/photography/thumbnail/Champagne_Summer24-10.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Experimentation-04.jpg')" src="./ressources/images/photography/thumbnail/Experimentation-04.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Experimentation-06.jpg')" src="./ressources/images/photography/thumbnail/Experimentation-06.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Experimentation-25.jpg')" src="./ressources/images/photography/thumbnail/Experimentation-25.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Experimentation-26.jpg')" src="./ressources/images/photography/thumbnail/Experimentation-26.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Experimentation-12.jpg')" src="./ressources/images/photography/thumbnail/Experimentation-12.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Experimentation-10.jpg')" src="./ressources/images/photography/thumbnail/Experimentation-10.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Experimentation-09.jpg')" src="./ressources/images/photography/thumbnail/Experimentation-09.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Experimentation-07.jpg')" src="./ressources/images/photography/thumbnail/Experimentation-07.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Experimentation-08.jpg')" src="./ressources/images/photography/thumbnail/Experimentation-08.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Experimentation-137.jpg')" src="./ressources/images/photography/thumbnail/Experimentation-137.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Experimentation-138.jpg')" src="./ressources/images/photography/thumbnail/Experimentation-138.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Experimentation-141.jpg')" src="./ressources/images/photography/thumbnail/Experimentation-141.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Experimentation-144.jpg')" src="./ressources/images/photography/thumbnail/Experimentation-144.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Experimentation-31.jpg')" src="./ressources/images/photography/thumbnail/Experimentation-31.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Experimentation-69.jpg')" src="./ressources/images/photography/thumbnail/Experimentation-69.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Fontainebleau-02.jpg')" src="./ressources/images/photography/thumbnail/Fontainebleau-02.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Fontainebleau-11.jpg')" src="./ressources/images/photography/thumbnail/Fontainebleau-11.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Photo-0006.jpg')" src="./ressources/images/photography/thumbnail/Photo-0006.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Photo-0009.jpg')" src="./ressources/images/photography/thumbnail/Photo-0009.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Photo-0011.jpg')" src="./ressources/images/photography/thumbnail/Photo-0011.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Photo-0012.jpg')" src="./ressources/images/photography/thumbnail/Photo-0012.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Photo-0017.jpg')" src="./ressources/images/photography/thumbnail/Photo-0017.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Photo-0020.jpg')" src="./ressources/images/photography/thumbnail/Photo-0020.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Photo-0021.jpg')" src="./ressources/images/photography/thumbnail/Photo-0021.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Photo-0024.jpg')" src="./ressources/images/photography/thumbnail/Photo-0024.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Photo-0025.jpg')" src="./ressources/images/photography/thumbnail/Photo-0025.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Normandie-03.jpg')" src="./ressources/images/photography/thumbnail/Normandie-03.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Normandie-04.jpg')" src="./ressources/images/photography/thumbnail/Normandie-04.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Normandie-02.jpg')" src="./ressources/images/photography/thumbnail/Normandie-02.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Normandie-13.jpg')" src="./ressources/images/photography/thumbnail/Normandie-13.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Normandie-15.jpg')" src="./ressources/images/photography/thumbnail/Normandie-15.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Normandie-21.jpg')" src="./ressources/images/photography/thumbnail/Normandie-21.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Normandie-24.jpg')" src="./ressources/images/photography/thumbnail/Normandie-24.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Normandie-31.jpg')" src="./ressources/images/photography/thumbnail/Normandie-31.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/PB091020.jpg')" src="./ressources/images/photography/thumbnail/PB091020.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/P1051989.jpg')" src="./ressources/images/photography/thumbnail/P1051989.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/P4082990.jpg')" src="./ressources/images/photography/thumbnail/P4082990.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/P4082999.jpg')" src="./ressources/images/photography/thumbnail/P4082999.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/P9110137.jpg')" src="./ressources/images/photography/thumbnail/P9110137.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/P9110138.jpg')" src="./ressources/images/photography/thumbnail/P9110138.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/P9230668.jpg')" src="./ressources/images/photography/thumbnail/P9230668.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/P9210532.jpg')" src="./ressources/images/photography/thumbnail/P9210532.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/P9210532-2.jpg')" src="./ressources/images/photography/thumbnail/P9210532-2.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/P9210533.jpg')" src="./ressources/images/photography/thumbnail/P9210533.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/P9210533-2.jpg')" src="./ressources/images/photography/thumbnail/P9210533-2.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/P9210543.jpg')" src="./ressources/images/photography/thumbnail/P9210543.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/P9210552-2.jpg')" src="./ressources/images/photography/thumbnail/P9210552-2.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/P9230659-2.jpg')" src="./ressources/images/photography/thumbnail/P9230659-2.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/PA300890.jpg')" src="./ressources/images/photography/thumbnail/PA300890.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Parc_Floral_de_Montreuil-11.jpg')" src="./ressources/images/photography/thumbnail/Parc_Floral_de_Montreuil-11.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Parc_Floral_de_Montreuil-4.jpg')" src="./ressources/images/photography/thumbnail/Parc_Floral_de_Montreuil-4.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Parc_Floral_de_Montreuil-6.jpg')" src="./ressources/images/photography/thumbnail/Parc_Floral_de_Montreuil-6.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/Parc_Montreau-49.jpg')" src="./ressources/images/photography/thumbnail/Parc_Montreau-49.jpg">
+      <img onclick="imagefullscreen('./ressources/images/photography/PB281835.jpg')" src="./ressources/images/photography/thumbnail/PB281835.jpg">
+    </div>
+
+      <div class="overlay" id="gallery_popupOverlay">
+        <div class="gallery_popup">
+          <button class="gallery_close-btn" id="closePopup">&times;</button>
+          <img id="galleryimg" src="">
+        </div>
+      </div>
+  </section>
 
   <footer>
     <div class="seperator"></div>
@@ -48,12 +152,13 @@
         <span style="font-weight: lighter;">&copy; 2026 Vivien Deroche. All rights reserved.</span>
         <span style="font-weight: bold;">Made by me.</span>
       </p>
-      <a href="./home.html#Home">Back to Home</a>
+      <a href="./home#Home">Back to Home</a>
     </div>
     <h5>A BLUE ODYM</h5>
   </footer>
 
+</body>
+
 <script type="module" src="./scripts.js"></script>
 
-</body>
 </html>
