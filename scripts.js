@@ -220,7 +220,7 @@ window.addEventListener('scroll', (event) => {
 
     const workimgs = ['workimg1','workimg2','workimg3','workimg4','workimg5','workimg6']
 
-    window.worksrc1 = ["./ressources/images/work/Darth_Maul.jpg","./ressources/images/work/Darth_Maul_Coolguy.jpg","./ressources/images/work/Darth_Maul_Turn.jpg","./ressources/images/work/Darth_Maul_Wireframe.jpg","./ressources/images/work/Darth_Maul_Viewport_1.jpg","./ressources/images/work/Darth_Maul_Viewport_2.jpg"]
+    window.worksrc1 = ["./ressources/images/work/Darth_Maul.jpg","./ressources/images/work/Darth_Maul_Coolguy.jpg","./ressources/images/work/Darth_Maul_Turn.jpg","./ressources/images/work/Darth_Maul_Wireframe.jpg","./ressources/images/work/Darth_Maul_viewport_1.jpg","./ressources/images/work/Darth_Maul_viewport_2.jpg"]
     window.worksrc2 = ["./ressources/images/work/Turtle_Front.jpg","./ressources/images/work/Turtle_34Front.jpg","./ressources/images/work/Turtle_34Back.jpg","./ressources/images/work/Turtle_Side.jpg","./ressources/images/work/Turtle_CloseUpBack.jpg","./ressources/images/work/Turtle_CloseUpFront.jpg","./ressources/images/work/Turtle_Lookdev.jpg"]
     window.worksrc3 = ["./ressources/images/work/Bryan_Cranston.jpg","./ressources/images/work/Bryan_Cranston_Full.jpg","./ressources/images/work/Bryan_Cranston_Viewport.jpg","./ressources/images/work/Bryan_Cranston_Wireframe.jpg"]
     window.worksrc4 = ["./ressources/images/work/Enceinte_Front_LookDev.jpg","./ressources/images/work/Enceinte_Back_LookDev.jpg","./ressources/images/work/Enceinte_5K.jpg","./ressources/images/work/Enceinte_White.jpg","./ressources/images/work/Enceinte_Enviro.jpg","./ressources/images/work/Enceinte_Wireframe.jpg","./ressources/images/work/Enceinte_UVs.jpg"]
